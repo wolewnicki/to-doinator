@@ -1,2 +1,2 @@
 def parse_csv(csv):
-    return csv.split(',')
+    return csv.replace(' ', '').split(',')
