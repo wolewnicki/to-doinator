@@ -24,3 +24,4 @@ def formatted_list(randomed):
     return randomed
     
 display_todo_list()
+input()
