@@ -1,2 +1,4 @@
+import re
+
 def parse_csv(csv):
-    return csv.replace(' ', '').split(',')
+    return re.sub(r',\s*', ',', csv).split(',')
